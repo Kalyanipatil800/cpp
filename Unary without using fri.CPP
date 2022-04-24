@@ -33,11 +33,11 @@ void unary::operator -()
 void main()
 {
 clrscr();
-cout<<"----Unary Operator Overloading without using Friend Function----"<<endl<<endl;
+cout<<"-----Unary Operator Overloading without using Friend  Function-----"<<endl<<endl;
  unary u;
  u.get();
  u.display();
- cout<<"----------------"<<endl;
+ cout<<"---------------------"<<endl;
  -u;
  u.display();
 getch();
